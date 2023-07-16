@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <UILabel
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerX="true"
+        android:font="@font/raleway"
+        android:text="Save Your Profile"
+        android:textColor="#0F9D58"
+        android:textSize="30"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/get_user_image"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVerticalBias="0.15" />
+
+    <UIView
+        android:id="@+id/get_user_image"
+        android:layout_width="130"
+        android:layout_height="130"
+        android:layout_centerX="true"
+        android:layout_centerY="true"
+        android:cornerRadius="65"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/get_user_name"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVerticalBias="0.3">
+
+        <UIImageView
+            android:id="@+id/get_user_image_in_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentMode="scaleAspectFill"
+            android:image="@drawable/defaultprofile"
+            tools:ignore="ImageContrastCheck" />
+    </UIView>
+
+    <UITextField
+        android:id="@+id/get_user_name"
+        android:layout_width="200"
+        android:layout_height="50"
+        android:layout_centerX="true"
+        android:layout_centerY="true"
+        android:autocorrectionType="no"
+        android:autocapitalizationType="words"
+        android:font="@font/raleway"
+        android:placeholder="Enter your name here"
+        android:textColor="#757575"
+        android:textSize="14"
+        app:layout_constraintBottom_toTopOf="@+id/get_user_height"
+        app:layout_constraintTop_toBottomOf="@+id/get_user_image" />
+
+    <UITextField
+        android:id="@+id/get_user_height"
+        android:layout_width="200"
+        android:layout_height="50"
+        android:layout_centerX="true"
+        android:layout_centerY="true"
+        android:autocorrectionType="no"
+        android:autocapitalizationType="words"
+        android:font="@font/raleway"
+        android:placeholder="Enter your height"
+        android:textColor="#757575"
+        android:textSize="14"
+        app:layout_constraintBottom_toTopOf="@+id/get_user_weight"
+        app:layout_constraintTop_toBottomOf="@+id/get_user_name"
+        app:layout_constraintVerticalBias="0.6"
+        tools:ignore="TextFields" />
+
+    <UITextField
+        android:id="@+id/get_user_weight"
+        android:layout_width="200"
+        android:layout_height="50"
+        android:layout_centerX="true"
+        android:layout_centerY="true"
+        android:autocorrectionType="no"
+        android:autocapitalizationType="words"
+        android:font="@font/raleway"
+        android:placeholder="Enter your weight"
+        android:textColor="#757575"
+        android:textSize="14"
+        app:layout_constraintBottom_toTopOf="@+id/get_user_wanted_weight"
+        app:layout_constraintTop_toBottomOf="@+id/get_user_height"
+        app:layout_constraintVerticalBias="0.7"
+        tools:ignore="TextFields" />
+
+    <UITextField
+        android:id="@+id/get_user_wanted_weight"
+        android:layout_width="200"
+        android:layout_height="50"
+        android:layout_centerX="true"
+        android:layout_centerY="true"
+        android:autocorrectionType="no"
+        android:autocapitalizationType="words"
+        android:font="@font/raleway"
+        android:placeholder="Enter your target weight"
+        android:textColor="#757575"
+        android:textSize="14"
+        app:layout_constraintBottom_toTopOf="@+id/saveProfile"
+        app:layout_constraintTop_toBottomOf="@+id/get_user_weight"
+        app:layout_constraintVerticalBias="0.798"
+        tools:ignore="TextFields" />
+
+    <UIButton
+        android:id="@+id/saveProfile"
+        android:layout_width="150"
+        android:layout_height="50"
+        android:layout_centerX="true"
+        android:layout_centerY="true"
+        android:backgroundColor="#0F9D58"
+        android:title="Save Profile"
+        android:titleColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/progressbarofsetProfile"
+        app:layout_constraintTop_toBottomOf="@+id/get_user_wanted_weight"
+        app:layout_constraintVerticalBias="0.9" />
+
+    <UIActivityIndicatorView
+        android:id="@+id/progressbarofsetProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerX="true"
+        android:layout_centerY="true"
+        android:isHidden="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saveProfile"
+        app:layout_constraintVerticalBias="1.0" />
+
+</UIView>

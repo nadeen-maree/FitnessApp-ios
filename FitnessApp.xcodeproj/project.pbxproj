@@ -9,13 +9,45 @@
 /* Begin PBXBuildFile section */
 		CED4E9DD2A59993C00A7BA7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4E9DC2A59993C00A7BA7A /* AppDelegate.swift */; };
 		CED4E9DF2A59993C00A7BA7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4E9DE2A59993C00A7BA7A /* SceneDelegate.swift */; };
-		CED4E9E12A59993C00A7BA7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4E9E02A59993C00A7BA7A /* ViewController.swift */; };
 		CED4E9E42A59993C00A7BA7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED4E9E22A59993C00A7BA7A /* Main.storyboard */; };
 		CED4E9E62A59993D00A7BA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED4E9E52A59993D00A7BA7A /* Assets.xcassets */; };
 		CED4E9E92A59993D00A7BA7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED4E9E72A59993D00A7BA7A /* LaunchScreen.storyboard */; };
 		CED4E9F42A59993D00A7BA7A /* FitnessAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4E9F32A59993D00A7BA7A /* FitnessAppTests.swift */; };
 		CED4E9FE2A59993D00A7BA7A /* FitnessAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4E9FD2A59993D00A7BA7A /* FitnessAppUITests.swift */; };
 		CED4EA002A59993D00A7BA7A /* FitnessAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4E9FF2A59993D00A7BA7A /* FitnessAppUITestsLaunchTests.swift */; };
+		CED4EA0D2A59999900A7BA7A /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA0C2A59999900A7BA7A /* SplashScreenViewController.swift */; };
+		CED4EA122A599E8200A7BA7A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CED4EA112A599E8200A7BA7A /* FirebaseAnalytics */; };
+		CED4EA142A599E8200A7BA7A /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CED4EA132A599E8200A7BA7A /* FirebaseAnalyticsSwift */; };
+		CED4EA192A5A06E400A7BA7A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CED4EA182A5A06E400A7BA7A /* FirebaseAuth */; };
+		CED4EA1B2A5A06E900A7BA7A /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CED4EA1A2A5A06E900A7BA7A /* FirebaseDatabase */; };
+		CED4EA1D2A5A06ED00A7BA7A /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CED4EA1C2A5A06ED00A7BA7A /* FirebaseDatabaseSwift */; };
+		CED4EA1F2A5A06FD00A7BA7A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CED4EA1E2A5A06FD00A7BA7A /* FirebaseStorage */; };
+		CED4EA232A5A0CD800A7BA7A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CED4EA222A5A0CD800A7BA7A /* FirebaseFirestore */; };
+		CED4EA272A5A13E200A7BA7A /* Profile Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED4EA262A5A13E200A7BA7A /* Profile Screen.storyboard */; };
+		CED4EA292A5A148400A7BA7A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA282A5A148400A7BA7A /* ProfileViewController.swift */; };
+		CED4EA2B2A5A151A00A7BA7A /* MethodsOfProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA2A2A5A151A00A7BA7A /* MethodsOfProfileVC.swift */; };
+		CED4EA2D2A5A155A00A7BA7A /* ImagePickerViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA2C2A5A155A00A7BA7A /* ImagePickerViewExtention.swift */; };
+		CED4EA302A5A179D00A7BA7A /* storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA2F2A5A179D00A7BA7A /* storyboards.swift */; };
+		CED4EA322A5A182D00A7BA7A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA312A5A182D00A7BA7A /* Utilities.swift */; };
+		CED4EA342A5A189500A7BA7A /* UtilityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA332A5A189500A7BA7A /* UtilityExtension.swift */; };
+		CED4EA362A5A19CA00A7BA7A /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED4EA352A5A19CA00A7BA7A /* TabBar.storyboard */; };
+		CED4EA382A5A1AF500A7BA7A /* Workouts Screens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED4EA372A5A1AF500A7BA7A /* Workouts Screens.storyboard */; };
+		CED4EA432A5AE62D00A7BA7A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA422A5AE62D00A7BA7A /* WelcomeViewController.swift */; };
+		CED4EA452A5AE65E00A7BA7A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA442A5AE65E00A7BA7A /* SignInViewController.swift */; };
+		CED4EA472A5AE68900A7BA7A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA462A5AE68900A7BA7A /* SignUpViewController.swift */; };
+		CED4EA492A5AE6AA00A7BA7A /* SignInSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA482A5AE6AA00A7BA7A /* SignInSignUpViewController.swift */; };
+		CED4EA4B2A5AE6D800A7BA7A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA4A2A5AE6D800A7BA7A /* LoadingView.swift */; };
+		CED4EA4D2A5B4C7F00A7BA7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CED4EA4C2A5B4C7F00A7BA7A /* GoogleService-Info.plist */; };
+		CED4EA502A5B667F00A7BA7A /* ExerciseDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA4F2A5B667F00A7BA7A /* ExerciseDescription.swift */; };
+		CED4EA532A5B66A800A7BA7A /* ExerciseListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA522A5B66A800A7BA7A /* ExerciseListDataModel.swift */; };
+		CED4EA562A5B66F900A7BA7A /* ExerciseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA552A5B66F900A7BA7A /* ExerciseListViewController.swift */; };
+		CED4EA582A5B671800A7BA7A /* ExerciseListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA572A5B671800A7BA7A /* ExerciseListCell.swift */; };
+		CED4EA5E2A5B677800A7BA7A /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA5D2A5B677800A7BA7A /* GifViewController.swift */; };
+		CED4EA612A5B67F500A7BA7A /* WorkoutsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA602A5B67F500A7BA7A /* WorkoutsViewController.swift */; };
+		CED4EA632A5B681300A7BA7A /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA622A5B681300A7BA7A /* CardCell.swift */; };
+		CED4EA672A5B686E00A7BA7A /* WorkoutScreenConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA662A5B686E00A7BA7A /* WorkoutScreenConstants.swift */; };
+		CED4EA692A5B689300A7BA7A /* ExerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED4EA682A5B689300A7BA7A /* ExerciseList.swift */; };
+		CED4EA6C2A5B699500A7BA7A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CED4EA6B2A5B699500A7BA7A /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +71,6 @@
 		CED4E9D92A59993C00A7BA7A /* FitnessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED4E9DC2A59993C00A7BA7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED4E9DE2A59993C00A7BA7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CED4E9E02A59993C00A7BA7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CED4E9E32A59993C00A7BA7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED4E9E52A59993D00A7BA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED4E9E82A59993D00A7BA7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +80,31 @@
 		CED4E9F92A59993D00A7BA7A /* FitnessAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnessAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED4E9FD2A59993D00A7BA7A /* FitnessAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppUITests.swift; sourceTree = "<group>"; };
 		CED4E9FF2A59993D00A7BA7A /* FitnessAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CED4EA0C2A59999900A7BA7A /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		CED4EA262A5A13E200A7BA7A /* Profile Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Profile Screen.storyboard"; sourceTree = "<group>"; };
+		CED4EA282A5A148400A7BA7A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CED4EA2A2A5A151A00A7BA7A /* MethodsOfProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodsOfProfileVC.swift; sourceTree = "<group>"; };
+		CED4EA2C2A5A155A00A7BA7A /* ImagePickerViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewExtention.swift; sourceTree = "<group>"; };
+		CED4EA2F2A5A179D00A7BA7A /* storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyboards.swift; sourceTree = "<group>"; };
+		CED4EA312A5A182D00A7BA7A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		CED4EA332A5A189500A7BA7A /* UtilityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtension.swift; sourceTree = "<group>"; };
+		CED4EA352A5A19CA00A7BA7A /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		CED4EA372A5A1AF500A7BA7A /* Workouts Screens.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Workouts Screens.storyboard"; sourceTree = "<group>"; };
+		CED4EA422A5AE62D00A7BA7A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		CED4EA442A5AE65E00A7BA7A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CED4EA462A5AE68900A7BA7A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CED4EA482A5AE6AA00A7BA7A /* SignInSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInSignUpViewController.swift; sourceTree = "<group>"; };
+		CED4EA4A2A5AE6D800A7BA7A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CED4EA4C2A5B4C7F00A7BA7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CED4EA4F2A5B667F00A7BA7A /* ExerciseDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDescription.swift; sourceTree = "<group>"; };
+		CED4EA522A5B66A800A7BA7A /* ExerciseListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListDataModel.swift; sourceTree = "<group>"; };
+		CED4EA552A5B66F900A7BA7A /* ExerciseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListViewController.swift; sourceTree = "<group>"; };
+		CED4EA572A5B671800A7BA7A /* ExerciseListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListCell.swift; sourceTree = "<group>"; };
+		CED4EA5D2A5B677800A7BA7A /* GifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
+		CED4EA602A5B67F500A7BA7A /* WorkoutsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsViewController.swift; sourceTree = "<group>"; };
+		CED4EA622A5B681300A7BA7A /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		CED4EA662A5B686E00A7BA7A /* WorkoutScreenConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreenConstants.swift; sourceTree = "<group>"; };
+		CED4EA682A5B689300A7BA7A /* ExerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED4EA1D2A5A06ED00A7BA7A /* FirebaseDatabaseSwift in Frameworks */,
+				CED4EA142A599E8200A7BA7A /* FirebaseAnalyticsSwift in Frameworks */,
+				CED4EA192A5A06E400A7BA7A /* FirebaseAuth in Frameworks */,
+				CED4EA1B2A5A06E900A7BA7A /* FirebaseDatabase in Frameworks */,
+				CED4EA6C2A5B699500A7BA7A /* Kingfisher in Frameworks */,
+				CED4EA122A599E8200A7BA7A /* FirebaseAnalytics in Frameworks */,
+				CED4EA1F2A5A06FD00A7BA7A /* FirebaseStorage in Frameworks */,
+				CED4EA232A5A0CD800A7BA7A /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +163,15 @@
 		CED4E9DB2A59993C00A7BA7A /* FitnessApp */ = {
 			isa = PBXGroup;
 			children = (
-				CED4E9DC2A59993C00A7BA7A /* AppDelegate.swift */,
-				CED4E9DE2A59993C00A7BA7A /* SceneDelegate.swift */,
-				CED4E9E02A59993C00A7BA7A /* ViewController.swift */,
-				CED4E9E22A59993C00A7BA7A /* Main.storyboard */,
+				CED4EA6D2A63470E00A7BA7A /* Delegate */,
+				CED4EA4E2A5B665800A7BA7A /* Models */,
+				CED4EA3E2A5A1E3F00A7BA7A /* Constant Data */,
+				CED4EA3B2A5A1D8B00A7BA7A /* Controllers */,
+				CED4EA3A2A5A1D2500A7BA7A /* Utilities */,
+				CED4EA392A5A1C8A00A7BA7A /* Views */,
 				CED4E9E52A59993D00A7BA7A /* Assets.xcassets */,
-				CED4E9E72A59993D00A7BA7A /* LaunchScreen.storyboard */,
 				CED4E9EA2A59993D00A7BA7A /* Info.plist */,
+				CED4EA4C2A5B4C7F00A7BA7A /* GoogleService-Info.plist */,
 			);
 			path = FitnessApp;
 			sourceTree = "<group>";
@@ -127,6 +193,116 @@
 			path = FitnessAppUITests;
 			sourceTree = "<group>";
 		};
+		CED4EA392A5A1C8A00A7BA7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CED4E9E72A59993D00A7BA7A /* LaunchScreen.storyboard */,
+				CED4E9E22A59993C00A7BA7A /* Main.storyboard */,
+				CED4EA262A5A13E200A7BA7A /* Profile Screen.storyboard */,
+				CED4EA372A5A1AF500A7BA7A /* Workouts Screens.storyboard */,
+				CED4EA352A5A19CA00A7BA7A /* TabBar.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CED4EA3A2A5A1D2500A7BA7A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CED4EA312A5A182D00A7BA7A /* Utilities.swift */,
+				CED4EA332A5A189500A7BA7A /* UtilityExtension.swift */,
+				CED4EA4A2A5AE6D800A7BA7A /* LoadingView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CED4EA3B2A5A1D8B00A7BA7A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CED4EA5F2A5B67E000A7BA7A /* Workouts Screen */,
+				CED4EA542A5B66E000A7BA7A /* Exercise List Screen */,
+				CED4EA412A5AE60700A7BA7A /* Authentication */,
+				CED4EA3C2A5A1DA000A7BA7A /* Profile Screen */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CED4EA3C2A5A1DA000A7BA7A /* Profile Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CED4EA3D2A5A1DD600A7BA7A /* Extension of ProfileVC */,
+				CED4EA282A5A148400A7BA7A /* ProfileViewController.swift */,
+			);
+			path = "Profile Screen";
+			sourceTree = "<group>";
+		};
+		CED4EA3D2A5A1DD600A7BA7A /* Extension of ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				CED4EA2A2A5A151A00A7BA7A /* MethodsOfProfileVC.swift */,
+				CED4EA2C2A5A155A00A7BA7A /* ImagePickerViewExtention.swift */,
+			);
+			path = "Extension of ProfileVC";
+			sourceTree = "<group>";
+		};
+		CED4EA3E2A5A1E3F00A7BA7A /* Constant Data */ = {
+			isa = PBXGroup;
+			children = (
+				CED4EA2F2A5A179D00A7BA7A /* storyboards.swift */,
+				CED4EA662A5B686E00A7BA7A /* WorkoutScreenConstants.swift */,
+				CED4EA682A5B689300A7BA7A /* ExerciseList.swift */,
+			);
+			path = "Constant Data";
+			sourceTree = "<group>";
+		};
+		CED4EA412A5AE60700A7BA7A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CED4EA0C2A59999900A7BA7A /* SplashScreenViewController.swift */,
+				CED4EA422A5AE62D00A7BA7A /* WelcomeViewController.swift */,
+				CED4EA442A5AE65E00A7BA7A /* SignInViewController.swift */,
+				CED4EA462A5AE68900A7BA7A /* SignUpViewController.swift */,
+				CED4EA482A5AE6AA00A7BA7A /* SignInSignUpViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CED4EA4E2A5B665800A7BA7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CED4EA4F2A5B667F00A7BA7A /* ExerciseDescription.swift */,
+				CED4EA522A5B66A800A7BA7A /* ExerciseListDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CED4EA542A5B66E000A7BA7A /* Exercise List Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CED4EA552A5B66F900A7BA7A /* ExerciseListViewController.swift */,
+				CED4EA572A5B671800A7BA7A /* ExerciseListCell.swift */,
+				CED4EA5D2A5B677800A7BA7A /* GifViewController.swift */,
+			);
+			path = "Exercise List Screen";
+			sourceTree = "<group>";
+		};
+		CED4EA5F2A5B67E000A7BA7A /* Workouts Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CED4EA602A5B67F500A7BA7A /* WorkoutsViewController.swift */,
+				CED4EA622A5B681300A7BA7A /* CardCell.swift */,
+			);
+			path = "Workouts Screen";
+			sourceTree = "<group>";
+		};
+		CED4EA6D2A63470E00A7BA7A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CED4E9DE2A59993C00A7BA7A /* SceneDelegate.swift */,
+				CED4E9DC2A59993C00A7BA7A /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +319,16 @@
 			dependencies = (
 			);
 			name = FitnessApp;
+			packageProductDependencies = (
+				CED4EA112A599E8200A7BA7A /* FirebaseAnalytics */,
+				CED4EA132A599E8200A7BA7A /* FirebaseAnalyticsSwift */,
+				CED4EA182A5A06E400A7BA7A /* FirebaseAuth */,
+				CED4EA1A2A5A06E900A7BA7A /* FirebaseDatabase */,
+				CED4EA1C2A5A06ED00A7BA7A /* FirebaseDatabaseSwift */,
+				CED4EA1E2A5A06FD00A7BA7A /* FirebaseStorage */,
+				CED4EA222A5A0CD800A7BA7A /* FirebaseFirestore */,
+				CED4EA6B2A5B699500A7BA7A /* Kingfisher */,
+			);
 			productName = FitnessApp;
 			productReference = CED4E9D92A59993C00A7BA7A /* FitnessApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +401,10 @@
 				Base,
 			);
 			mainGroup = CED4E9D02A59993C00A7BA7A;
+			packageReferences = (
+				CED4EA102A599E8200A7BA7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CED4EA6A2A5B699500A7BA7A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = CED4E9DA2A59993C00A7BA7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +422,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED4E9E92A59993D00A7BA7A /* LaunchScreen.storyboard in Resources */,
+				CED4EA382A5A1AF500A7BA7A /* Workouts Screens.storyboard in Resources */,
+				CED4EA272A5A13E200A7BA7A /* Profile Screen.storyboard in Resources */,
+				CED4EA4D2A5B4C7F00A7BA7A /* GoogleService-Info.plist in Resources */,
 				CED4E9E62A59993D00A7BA7A /* Assets.xcassets in Resources */,
+				CED4EA362A5A19CA00A7BA7A /* TabBar.storyboard in Resources */,
 				CED4E9E42A59993C00A7BA7A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +452,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED4E9E12A59993C00A7BA7A /* ViewController.swift in Sources */,
+				CED4EA562A5B66F900A7BA7A /* ExerciseListViewController.swift in Sources */,
+				CED4EA612A5B67F500A7BA7A /* WorkoutsViewController.swift in Sources */,
+				CED4EA582A5B671800A7BA7A /* ExerciseListCell.swift in Sources */,
+				CED4EA672A5B686E00A7BA7A /* WorkoutScreenConstants.swift in Sources */,
+				CED4EA502A5B667F00A7BA7A /* ExerciseDescription.swift in Sources */,
+				CED4EA492A5AE6AA00A7BA7A /* SignInSignUpViewController.swift in Sources */,
+				CED4EA452A5AE65E00A7BA7A /* SignInViewController.swift in Sources */,
+				CED4EA5E2A5B677800A7BA7A /* GifViewController.swift in Sources */,
+				CED4EA4B2A5AE6D800A7BA7A /* LoadingView.swift in Sources */,
+				CED4EA632A5B681300A7BA7A /* CardCell.swift in Sources */,
+				CED4EA322A5A182D00A7BA7A /* Utilities.swift in Sources */,
+				CED4EA532A5B66A800A7BA7A /* ExerciseListDataModel.swift in Sources */,
+				CED4EA2D2A5A155A00A7BA7A /* ImagePickerViewExtention.swift in Sources */,
 				CED4E9DD2A59993C00A7BA7A /* AppDelegate.swift in Sources */,
+				CED4EA432A5AE62D00A7BA7A /* WelcomeViewController.swift in Sources */,
+				CED4EA692A5B689300A7BA7A /* ExerciseList.swift in Sources */,
+				CED4EA342A5A189500A7BA7A /* UtilityExtension.swift in Sources */,
+				CED4EA472A5AE68900A7BA7A /* SignUpViewController.swift in Sources */,
+				CED4EA292A5A148400A7BA7A /* ProfileViewController.swift in Sources */,
+				CED4EA302A5A179D00A7BA7A /* storyboards.swift in Sources */,
+				CED4EA0D2A59999900A7BA7A /* SplashScreenViewController.swift in Sources */,
+				CED4EA2B2A5A151A00A7BA7A /* MethodsOfProfileVC.swift in Sources */,
 				CED4E9DF2A59993C00A7BA7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,6 +810,68 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CED4EA102A599E8200A7BA7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		CED4EA6A2A5B699500A7BA7A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CED4EA112A599E8200A7BA7A /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CED4EA102A599E8200A7BA7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CED4EA132A599E8200A7BA7A /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CED4EA102A599E8200A7BA7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		CED4EA182A5A06E400A7BA7A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CED4EA102A599E8200A7BA7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CED4EA1A2A5A06E900A7BA7A /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CED4EA102A599E8200A7BA7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		CED4EA1C2A5A06ED00A7BA7A /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CED4EA102A599E8200A7BA7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		CED4EA1E2A5A06FD00A7BA7A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CED4EA102A599E8200A7BA7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		CED4EA222A5A0CD800A7BA7A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CED4EA102A599E8200A7BA7A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CED4EA6B2A5B699500A7BA7A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CED4EA6A2A5B699500A7BA7A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CED4E9D12A59993C00A7BA7A /* Project object */;
 }

@@ -6,19 +6,56 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
+    func changeRootViewController(_ vc: UIViewController, animated: Bool = true)
+       {
+           guard let window = self.window else
+           {
+               return
+           }
+           
+           // change the root view controller to specific view controller
+           window.rootViewController = vc
+       }
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
-        guard let _ = (scene as? UIWindowScene) else { return }
+        guard let windowScene = scene as? UIWindowScene else { return }
+        
+        let splashScreenViewController = SplashScreenViewController()
+        
+        let window = UIWindow(windowScene: windowScene)
+        window.rootViewController = splashScreenViewController
+        
+        self.window = window
+        window.makeKeyAndVisible()
+        
+        
+        let mainStoryboard = UIStoryboard(name: Storyboards.Name.Main, bundle: nil)
+                let tabBarStoryboard = UIStoryboard(name: Storyboards.Name.TabBar, bundle: nil)
+                
+                // If user is logged in before.
+        if (Auth.auth().currentUser?.email) != nil
+                {
+                    
+                    // instantiate the tab bar controller and set it as root view controller
+                    let tabBarController = tabBarStoryboard.instantiateViewController(withIdentifier: Storyboards.VCID.TabBarController)
+                    window.rootViewController = tabBarController
+                    
+                }
+                
+                else
+                {
+                    // if user isn't logged in
+                    // instantiate the navigation controller and set it as root view controller
+                    let signInNavController = mainStoryboard.instantiateViewController(withIdentifier: Storyboards.VCID.SignInNavigationController)
+                    window.rootViewController = signInNavController
+                }
     }
-
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
         // This occurs shortly after the scene enters the background, or when its session is discarded.
