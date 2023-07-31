@@ -1,7 +1,7 @@
 # FitnessApp iOS App🏋️‍♀️
 
 <p align="center">
- <img width="90" alt="Icon-60@3x" src="https://user-images.githubusercontent.com/82876741/210613281-f5c461d2-4d96-462c-b81e-fc2f6e12f80d.png">
+ <img width="200" alt="Icon-60@3x" src="https://github.com/nadeen-maree/FitnessApp-ios/blob/main/Screenshots/logo.png">
 </p>
 
 **FitnessApp** is a cutting-edge fitness iOS app designed to help users stay fit and achieve their fitness goals. With a seamless integration with Firebase, FitnessApp provides a user-friendly experience, allowing users to create profiles, access exercise categories, and view exercise details.
@@ -16,6 +16,8 @@
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
+  - [Foundation](#Foundation)
+  - [Dependencies](#Dependencies)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -72,10 +74,17 @@ Maintaining a healthy lifestyle and achieving fitness goals can be challenging w
 
 ## Screenshots
 
-Include some visually appealing screenshots or a GIF showcasing your app's interface and features.
+ <img width="150" alt="picture1" src="https://github.com/nadeen-maree/FitnessApp-ios/blob/main/Screenshots/picture1.png"> <img width="150" alt="picture2" src="https://github.com/nadeen-maree/FitnessApp-ios/blob/main/Screenshots/picture2.png">
+ <img width="150" alt="picture3" src="https://github.com/nadeen-maree/FitnessApp-ios/blob/main/Screenshots/picture3.png">
+ <img width="150" alt="picture4" src="https://github.com/nadeen-maree/FitnessApp-ios/blob/main/Screenshots/picture4.png">
+ <img width="150" alt="picture5" src="https://github.com/nadeen-maree/FitnessApp-ios/blob/main/Screenshots/picture5.png">
+ <img width="150" alt="picture6" src="https://github.com/nadeen-maree/FitnessApp-ios/blob/main/Screenshots/picture6.png">
+ <img width="150" alt="picture7" src="https://github.com/nadeen-maree/FitnessApp-ios/blob/main/Screenshots/picture7.png">
+ <img width="150" alt="picture8" src="https://github.com/nadeen-maree/FitnessApp-ios/blob/main/Screenshots/picture8.png">
+ <img width="150" alt="picture9" src="https://github.com/nadeen-maree/FitnessApp-ios/blob/main/Screenshots/picture9.png">
 
 
-# Technologies Used:
+## Technologies Used:
 
 ### Foundation
 - Swift5
