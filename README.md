@@ -1,6 +1,8 @@
 # FitnessApp iOS App🏋️‍♀️
 
-![FitnessX Logo](link-to-your-logo.png)
+<p align="center">
+ <img width="90" alt="Icon-60@3x" src="https://user-images.githubusercontent.com/82876741/210613281-f5c461d2-4d96-462c-b81e-fc2f6e12f80d.png">
+</p>
 
 **FitnessApp** is a cutting-edge fitness iOS app designed to help users stay fit and achieve their fitness goals. With a seamless integration with Firebase, FitnessApp provides a user-friendly experience, allowing users to create profiles, access exercise categories, and view exercise details.
 
